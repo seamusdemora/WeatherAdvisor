@@ -30,3 +30,5 @@ Resources:
 
 * [Telegram API Terms of Service (it's FREE!)](https://core.telegram.org/api/terms)
 
+* [Build an SMS Terminal using Wammu/Gammu and a GSM module](https://wammu.eu/)
+
