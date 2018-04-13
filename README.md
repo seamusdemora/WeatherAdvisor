@@ -1,8 +1,19 @@
 # WeatherAdvisor
 
-Provides the user a brief, near-term weather forecast for his location via SMS. 
+## Objective:
 
-Resources:
+Provides a brief, near-term weather forecast to a user in his current location
+
+## Outline of approach: 
+
+ 1. Identify a (free) online source of weather data and forecasts, and code the logic for extracting and summarizing that data into a brief message. 
+ 
+ 2. Identify a (free) online service to generate and broadcast messages containing brief weather forecasts. Some candidates: 
+ 
+ * SMS - twilio and Amazon's AWS are candidates; others will be evaluated. 
+ * Twitter - a potentially simpler system: users 'subscribe' to a Twitter feed, and get periodic updates to weather for a specified location. Has its drawbacks, and not general purpose, but may be simpler to develop initially? 
+
+## Resources:
 
 * [Weather data; the Dark Sky API](https://darksky.net/dev/docs)
 
